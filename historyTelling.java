@@ -14,7 +14,7 @@ public class historyTelling{
 
         if(escolha == 1){
 
-            funcoes.saida(dados.escolhas.escolha_A + "\n" + dados.capitulos.cap2);
+            funcoes.saida(dados.capitulos.cap2);
             escolha = 0;
 
             funcoes.saida(dados.escolhas.escolha_A1 + "\n" + dados.escolhas.escolha_A2);
@@ -26,17 +26,17 @@ public class historyTelling{
             }
             
             if(escolha == 1){
-                funcoes.saida(dados.escolhas.escolha_A1 + "\n" + dados.finais.final_A1);
+                funcoes.saida(dados.finais.final_A1);
             }
             else if(escolha == 2){
-                funcoes.saida(dados.escolhas.escolha_A2 + "\n" + dados.finais.final_A2);
+                funcoes.saida(dados.finais.final_A2);
             }
 
         }
 
          else if (escolha == 2){
 
-            funcoes.saida(dados.escolhas.escolha_B + "\n" + dados.capitulos.cap2);
+            funcoes.saida(dados.capitulos.cap2);
             escolha = 0;
             
             funcoes.saida(dados.escolhas.escolha_B1 + "\n" + dados.escolhas.escolha_B2);
@@ -48,10 +48,10 @@ public class historyTelling{
             }
 
             if(escolha == 1){
-                funcoes.saida(dados.escolhas.escolha_B1 + "\n" + dados.finais.final_B1);
+                funcoes.saida(dados.finais.final_B1);
             }
             else if(escolha == 2){
-                funcoes.saida(dados.escolhas.escolha_B2 + "\n" + dados.finais.final_B2);
+                funcoes.saida(dados.finais.final_B2);
             }
         }
 
